@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS bronze.crypto_btc_trade_history;
-CREATE TABLE if not exists bronze.crypto_btc_trade_history (
+DROP TABLE IF EXISTS bronze.invest_btc_trade_history;
+CREATE TABLE if not exists bronze.invest_btc_trade_history (
     trade_date     DATE,
     price          NUMERIC(10, 2),
     open_price     NUMERIC(10, 2),
